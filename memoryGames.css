@@ -55,10 +55,6 @@ html {
   justify-content: space-between;
   background-color: aquamarine;
   padding: 5px 10px;
-  width: calc(100% - 20px);
-  position: fixed;
-  left: 0;
-  z-index: 100;
 }
 #cards {
   margin-top: 30px;
@@ -79,6 +75,12 @@ html {
 @media (max-width: 767px) {
   #cards .image {
     width: 100px;
+  }
+  #player #playerInfo {
+    width: calc(100% - 20px);
+    position: fixed;
+    left: 0;
+    z-index: 100;
   }
 }
 #cards .image img {
