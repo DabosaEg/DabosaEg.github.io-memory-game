@@ -55,6 +55,10 @@ html {
   justify-content: space-between;
   background-color: aquamarine;
   padding: 5px 10px;
+  width: calc(100% - 20px);
+  position: fixed;
+  left: 0;
+  z-index: 100;
 }
 #cards {
   margin-top: 30px;
