@@ -45,7 +45,7 @@ input.addEventListener("keypress", (el) => {
   let score = 0;
 
   // # of trails
-  let trials = 20;
+  let trials = 15;
 
   // 1- enter player Name: write the name and press enter
   if (el.key === "Enter" || el.key === "#") {

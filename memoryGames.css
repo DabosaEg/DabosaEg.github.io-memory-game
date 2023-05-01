@@ -72,6 +72,11 @@ html {
   cursor: pointer;
   width: 130px;
 }
+@media (max-width: 767px) {
+  #cards .image {
+    width: 100px;
+  }
+}
 #cards .image img {
   width: 100%;
 }
